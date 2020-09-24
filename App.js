@@ -22,6 +22,7 @@ import iconInbox from './src/assets/icon/inbox.png';
 import iconAccount from './src/assets/icon/account.png';
 import GoInfo from './src/components/molecules/goInfo';
 import GoPromo from './src/components/molecules/goPromo';
+import ScrollAbleProducts from './src/containers/organisme/scrollAbleProducts';
 
 export default class App extends Component {
   render() {
@@ -145,6 +146,8 @@ export default class App extends Component {
           />
 
           {/* Nearby Go-food Section */}
+          <ScrollAbleProducts/>
+          
         </ScrollView>
 
         <View
