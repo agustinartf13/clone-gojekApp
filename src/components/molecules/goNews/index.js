@@ -66,7 +66,7 @@ const GoNews = (props) => {
             paddingVertical: 11,
             alignSelf: 'flex-end',
             borderRadius: 4,
-          }}>
+          }} onPress={props.onPress}>
           <Text style={{fontSize: 13, fontWeight: 'bold', color: 'white'}}>
             {props.textBtn}
           </Text>
